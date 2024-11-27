@@ -50,7 +50,7 @@ const ViewTodosScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
        <Button
-        title="Tambah To-Do Baru"
+        title="Tambah Tugas Baru"
         onPress = {() => navigation.navigate("Todo")}
       />
       

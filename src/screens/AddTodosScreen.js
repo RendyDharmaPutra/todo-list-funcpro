@@ -23,7 +23,7 @@ const AddTodosScreen = ({ navigation }) => {
                 description: description.trim(),
                 status: 'Doing',
             });
-            Alert.alert('Success', 'Data berhasil ditambahkan');
+            Alert.alert('Success', 'Tugas berhasil ditambahkan');
         } catch (error) 
             {
                 console.error('Error adding data:', error);
